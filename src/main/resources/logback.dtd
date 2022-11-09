@@ -1,0 +1,23 @@
+<!ELEMENT configuration (appender,root)>
+<!ELEMENT appender (file,withJansi,rollingPolicy,encoder)>
+<!ATTLIST appender name NMTOKEN #REQUIRED>
+<!ATTLIST appender class NMTOKEN #REQUIRED>
+<!ELEMENT file (#PCDATA)>
+<!ELEMENT withJansi (#PCDATA)>
+<!ELEMENT rollingPolicy (fileNamePattern,minIndex,maxFileSize,maxHistory,totalSizeCap)>
+<!ATTLIST rollingPolicy class NMTOKEN #REQUIRED>
+<!ELEMENT fileNamePattern (#PCDATA)>
+<!ELEMENT minIndex (#PCDATA)>
+<!ELEMENT maxFileSize (#PCDATA)>
+<!ELEMENT maxHistory (#PCDATA)>
+<!ELEMENT totalSizeCap (#PCDATA)>
+<!ELEMENT encoder (layout)>
+<!ATTLIST encoder class NMTOKEN #REQUIRED>
+<!ELEMENT layout (prefix,printThreadName)>
+<!ATTLIST layout class NMTOKEN #REQUIRED>
+<!ELEMENT prefix (#PCDATA)>
+<!ELEMENT printThreadName (#PCDATA)>
+<!ELEMENT root (appender-ref)>
+<!ATTLIST root level NMTOKEN #REQUIRED>
+<!ELEMENT appender-ref EMPTY>
+<!ATTLIST appender-ref ref NMTOKEN #REQUIRED>

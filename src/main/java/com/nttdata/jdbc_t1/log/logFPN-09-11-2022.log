@@ -1,0 +1,78 @@
+15:17:58.767 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+15:17:58.769 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+15:17:58.770 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+15:17:58.774 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+15:17:58.957 [main] ERROR c.n.j.persistence.ConnectionManager - [setDriver] - Fallo al intentar conectar a la base de datos
+15:17:58.959 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+15:17:58.959 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+15:55:17.257 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+15:55:17.260 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+15:55:17.261 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+15:55:17.266 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+15:55:17.528 [main] ERROR c.n.j.persistence.ConnectionManager - [setDriver] - Fallo al intentar conectar a la base de datos
+15:55:17.528 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+15:55:17.529 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+15:55:58.777 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+15:55:58.779 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+15:55:58.780 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+15:55:58.785 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+15:55:59.034 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+15:55:59.035 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+15:55:59.035 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+15:55:59.050 [main] ERROR com.nttdata.jdbc_t1.App - [stablishDBConnection] - La sequencia SQL no está bien declarada
+15:55:59.056 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+15:55:59.056 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END
+16:05:27.258 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+16:05:27.260 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+16:05:27.261 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+16:05:27.266 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+16:05:27.532 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+16:05:27.533 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+16:05:27.533 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+16:05:27.555 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+16:05:27.555 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END
+16:06:53.070 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+16:06:53.072 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+16:06:53.072 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+16:06:53.078 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+16:06:53.329 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+16:06:53.330 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+16:06:53.330 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+16:06:53.356 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+16:06:53.357 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END
+16:21:15.133 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+16:21:15.135 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+16:21:15.135 [main] DEBUG c.n.jdbc_t1.utilities.InterfaceUtils - [menu] - 
+=========================================================================
+
+16:21:15.136 [main] DEBUG c.n.jdbc_t1.utilities.InterfaceUtils - [menu] - 
+Bienvenido al taller de JDBC.
+
+16:21:15.136 [main] DEBUG c.n.jdbc_t1.utilities.InterfaceUtils - [menu] - 
+=========================================================================
+
+16:21:15.136 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+16:21:15.141 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+16:21:15.409 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+16:21:15.410 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+16:21:15.410 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+16:21:15.431 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+16:21:15.431 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END
+16:21:53.556 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+16:21:53.558 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+16:21:53.559 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+16:21:53.564 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+16:21:53.820 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+16:21:53.820 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+16:21:53.820 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+16:21:53.842 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+16:21:53.842 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END
+16:22:45.211 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE INIT
+16:22:45.213 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE INIT
+16:22:45.214 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE INIT
+16:22:45.220 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE INIT
+16:22:45.475 [main] DEBUG c.n.j.persistence.ConnectionManager - [setDriver] - Conexión establecida correctamente a nttdata_jdbc_ex
+16:22:45.476 [main] INFO  c.n.j.persistence.ConnectionManager - [setDriver] - TRACE END
+16:22:45.476 [main] INFO  c.n.j.persistence.ConnectionManager - [getConnection] - TRACE END
+16:22:45.497 [main] INFO  com.nttdata.jdbc_t1.App - [stablishDBConnection] - TRACE END
+16:22:45.497 [main] INFO  com.nttdata.jdbc_t1.App - [main] - TRACE END

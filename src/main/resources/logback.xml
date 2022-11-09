@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration debug="true" scan="true"
+	scanPeriod="10 seconds">
+	
+	<!-- VAR FECHA -->
+	<timestamp key="todayDate" datePattern="dd-MM-yyy"/>
+	
+	<!-- APPENDER -->
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		
+		<!-- NOMBRE DEL FICHERO -->
+		<file>D://DATOS//CESUR//DEVELOP//WORKSPACES//DUAL//nttdatacenters-jdbc-t1-FPN//src//main//java//com//nttdata//jdbc_t1//log//logFPN-${todayDate}.log</file>
+
+		<!-- POLITICA PARA PARTICION FICHERO -->
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>D://DATOS//CESUR//DEVELOP//WORKSPACES//DUAL//nttdatacenters-jdbc-t1-FPN//src//main//java//com//nttdata//jdbc_t1//log//logFPN-${todayDate}.%i.logJDBC_t1.zip</fileNamePattern>
+			
+			<!-- CANTIDAD DE FICHEROS -->
+			<minIndex>1</minIndex>
+			<maxIndex>3</maxIndex>
+		</rollingPolicy>
+		
+		<!-- keep 7 days's worth of history capped at 50kb total size -->
+		<triggeringPolicy
+			class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>50KB</maxFileSize>
+		</triggeringPolicy>
+			
+		
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%method] - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- ROOT LOGGER -->
+	<root level="debug">
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>
