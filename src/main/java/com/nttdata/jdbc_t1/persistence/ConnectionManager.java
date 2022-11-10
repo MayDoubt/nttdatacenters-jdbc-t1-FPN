@@ -73,12 +73,16 @@ public class ConnectionManager {
 			if(driverName.contains("sqlserver")) {
 				//Generate connection to BD sqlserver
 				connectionDb = DriverManager.getConnection(InterfaceUtils.toStrBuilder(url, "/", database, ";", cert), login, password);
-				log.debug(InterfaceUtils.toStrBuilder(InterfaceUtils.ESTABLISHED_CONNECTIONDB_MSG, database));
+				if(log.isDebugEnabled() ) {
+					log.debug(InterfaceUtils.toStrBuilder(InterfaceUtils.ESTABLISHED_CONNECTIONDB_MSG, database));
+				}
 				connectionDb.setAutoCommit(false);
 			} else if (driverName.contains("mysql")) {
 				//Generate connection to BD mysql
 				connectionDb = DriverManager.getConnection(InterfaceUtils.toStrBuilder(url, "/", database), login, password);
-				log.debug(InterfaceUtils.toStrBuilder(InterfaceUtils.ESTABLISHED_CONNECTIONDB_MSG, database));
+				if(log.isDebugEnabled() ) {
+					log.debug(InterfaceUtils.toStrBuilder(InterfaceUtils.ESTABLISHED_CONNECTIONDB_MSG, database));
+				}
 				connectionDb.setAutoCommit(false);
 			} else {
 				//If it's not Mysql or sqlserver it throws an error
